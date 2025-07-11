@@ -10,7 +10,7 @@ class TelegramMessager(Messager):
         self.bot = Bot(token=self.get_envar("TELEGRAM_TOKEN"))
         self.chat_id = self.get_envar("TELEGRAM_CHAT_ID")
 
-    def send(self, message: str) -> None:
+    async def send(self, message: str) -> None:
         # Implementation for sending a message via Telegram
-        self.bot.send_message(chat_id=self.chat_id, text=message)
+        await self.bot.send_message(chat_id=self.chat_id, text=message, )
 
