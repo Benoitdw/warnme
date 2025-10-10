@@ -7,7 +7,9 @@ pip install git+ssh://git@github.com/Benoitdw/warnme.git
 
 ## Config
 .env file is needed for secrets. It has to be in `$HOME/.config/.warnme`
+See the [Wiki](https://github.com/Benoitdw/warnme/wiki) for informations how to create the file.
 You can take the .env file as a template.
+
 
 
 ## Usage
