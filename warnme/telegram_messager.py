@@ -1,3 +1,7 @@
+from __future__ import annotations
+
+
+
 from warnme.messager import Messager
 from telegram import Bot
 from warnme.message import Message,level_emoji_map
